@@ -1,16 +1,68 @@
-/* Type your code here */
+*{
+	padding:0;
+	margin:0;
+}
+section{
+position:relative;
+
+}
+#Logo{
+	padding-left:40rem;
+}
+h1{
+	font-size:40px;
+}
+h2{
+	font-size: 20px;
+}
+#top{
+	display: flex;
+	background-color: red;
+	justify-content: space-between;
+	width: 45em;
+}
+tr{
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+	justify-content: space-between;
+	width: 45rem;
+}
+.tbh{
+	font-size: 17px;
+	justify-content: space-between;
+}
+table{
+	border: 5px;
+	border-color: antiquewhite;
+	border-width: 5px;
+justify-content: space-between;
+width: 45rem;
+background-color: whitesmoke;
+}
 
 
-/* change the font family and spacing as per your project font */
+#back{
+	position: absolute;
+	z-index: -1;
+	width: 60%;
+}
+
 .footer{
     display:flex;
-    flex-direction: row;
+    flex-direction:row;
     align-content: flex-end;
-	position: relative;
+	position: absolute;
 	top: 750px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
+	font-style: normal;
+	justify-content: flex-start;
     
+}
+#la
+{
+	position: absolute;
+	margin-top:-20rem;
 }

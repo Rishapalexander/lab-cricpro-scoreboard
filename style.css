@@ -7,7 +7,7 @@ position:relative;
 
 }
 #Logo{
-	padding-left:40rem;
+	padding-left:80rem;
 }
 h1{
 	font-size:40px;
@@ -19,33 +19,37 @@ h2{
 	display: flex;
 	background-color: red;
 	justify-content: space-between;
-	width: 45em;
+	width: 90%;
 }
 tr{
 	border: 1px;
 	border-color: black;
 	border-style: solid;
 	justify-content: space-between;
+	text-align:justify;
 	width: 45rem;
 }
 .tbh{
 	font-size: 17px;
-	justify-content: space-between;
+	justify-content: space-around;
+	text-align: center;
 }
 table{
 	border: 5px;
 	border-color: antiquewhite;
 	border-width: 5px;
-justify-content: space-between;
-width: 45rem;
+justify-content: space-around;
+width: 90%;
+height: 25rem;
 background-color: whitesmoke;
+text-align: justify;
 }
 
 
 #back{
 	position: absolute;
 	z-index: -1;
-	width: 60%;
+	width: 100%
 }
 
 .footer{
@@ -59,10 +63,59 @@ background-color: whitesmoke;
 	font-family: Nunito Sans;
 	font-style: normal;
 	justify-content: flex-start;
-    
+    margin-top:-10rem;
 }
-#la
-{
+th{
+padding-right: 123px;
+text-align: justify:
+padding:50px;
+}
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+  }
+  .overlay:target {
+	visibility: visible;
+	opacity: 1;}
+
+.popup {
+	margin: 70px auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	width: 30%;
+	position: relative;
+	transition: all 5s ease-in-out;
+  }
+  
+  /* .popup h2 {
+	margin-top: 0;
+	color: #333;
+	font-family: Tahoma, Arial, sans-serif;
+  } */
+  /* .popup .close {
 	position: absolute;
-	margin-top:-20rem;
-}
+	top: 20px;
+	right: 30px;
+	transition: all 200ms;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+  } */
+  .popup .close:hover {
+	color: #06D85F; 
+  }
+  .popup .content {
+	max-height: 30%;
+	overflow: auto;
+	cursor: pointer;
+  }
+  
